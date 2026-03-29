@@ -1,0 +1,48 @@
+/* Basic Page Style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    text-align: center;
+}
+
+/* Nav Bar Class */
+.navbar {
+    background-color: #333;
+    padding: 15px;
+}
+
+.navbar a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+/* Container Class for Content */
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+}
+
+/* Review Class */
+.review-text {
+    font-style: italic;
+    color: blue;
+}
+
+/* Link Styled as a Button */
+.btn-link {
+    display: inline-block;
+    background-color: #ff0000;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.btn-link:hover {
+    background-color: #cc0000;
+}
