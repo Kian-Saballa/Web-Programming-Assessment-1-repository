@@ -1,0 +1,34 @@
+/* Resetting the page to use the full screen */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #111; /* Dark background to make the video stand out */
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* The centering */
+.video-overlay {
+    display: flex;            /* Enables Flexbox */
+    justify-content: center;  /* Centers horizontally */
+    align-items: center;      /* Centers vertically */
+    height: 100vh;            /* Uses the Viewport Height */
+}
+
+/* Styling the area around the video */
+.video-box {
+    text-align: center;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    
+}
+
+video {
+    border-radius: 5px;
+    max-width: 100%; /* Ensures the video is responsive on smaller screens */
+    height: auto;
+    align-self: center;
+}
