@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- added viewport first because images looked too large before -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Poster Collection</title>
+
+  <!-- css and js separated to keep html cleaner -->
+  <link rel="stylesheet" href="Chp 3.css">
+  <script src="Chp 3.js" defer></script>
+</head>
+<body>
+
+<header>
+  <h1>CHAPTER 3 IMAGES</h1>
+
+  <!-- Short title -->
+  <p>Three Images designs with filter effects</p>
+</header>
+
+<section class="poster-gallery">
+
+  <!-- First Image -->
+  <article class="poster-card">
+    <img src="Images/Image1.jpg"
+         alt="Retro travel style poster"
+         title="Vintage poster"
+         width="300"
+         height="400">
+
+    <!-- filter buttons under image -->
+    <div class="controls">
+      <button data-effect="grayscale">Mono</button>
+      <button data-effect="sepia">Sepia</button>
+      <button data-effect="contrast">Contrast</button>
+      <button data-effect="reset">Reset</button>
+    </div>
+
+    <p>Artist: Riccardo Vespa</p>
+  </article>
+
+  <!-- Second Image -->
+  <article class="poster-card">
+    <img src="images/Image2.jpg"
+         alt="Historic poster design"
+         title="Propaganda poster"
+         width="300"
+         height="400">
+
+    <div class="controls">
+      <button data-effect="grayscale">Mono</button>
+      <button data-effect="sepia">Sepia</button>
+      <button data-effect="contrast">Contrast</button>
+      <button data-effect="reset">Reset</button>
+    </div>
+
+    <p>Artist: Liisbet Luup</p>
+  </article>
+
+  <!-- third Image -->
+  <article class="poster-card">
+    <img src="Images/Image3.jpg"
+         alt="Obama campaign poster"
+         title="Campaign poster"
+         width="300"
+         height="400">
+
+    <div class="controls">
+      <button data-effect="grayscale">Mono</button>
+      <button data-effect="sepia">Sepia</button>
+      <button data-effect="contrast">Contrast</button>
+      <button data-effect="reset">Reset</button>
+    </div>
+
+    <p>Artist: Cheng Shi Song</p>
+  </article>
+
+</section>
+
+<section class="bonus">
+  <div id="a">div#A</div>
+  <div id="b">div#B</div>
+  <div id="c">div#C</div>
+  <div id="d">div#D</div>
+</section>
+
+</body>
+</html>
